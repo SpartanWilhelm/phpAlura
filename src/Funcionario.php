@@ -17,10 +17,12 @@ class Funcionario
     {
         return $this->nome;
     }
+
     public function recuperaCpf(): string
     {
         return $this->cpf;
     }
+    
     public function recuperaCargo(): string
     {
         return $this->cargo;
