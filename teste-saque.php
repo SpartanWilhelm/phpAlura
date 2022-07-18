@@ -12,7 +12,8 @@ $conta = new Conta(
         new CPF(numero: '123.456.789-00'), 
         'Vinícius Dias', 
         new Endereco(cidade: 'Petropolis', bairro: 'bairro teste', rua: 'Rua Lá', numero: '37')
-    )
+    ),
+    2
 );
 $conta->deposita(valorADepositar: 500);
 $conta->saca(valorASacar: 100);
