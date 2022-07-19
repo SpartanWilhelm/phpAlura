@@ -2,7 +2,7 @@
 
 namespace Alura\Banco\Service;
 
-use Alura\Banco\Modelo\{CPF, Endereco, Funcionario};
+use Alura\Banco\Modelo\Funcionario\Funcionario;
 
 class ControladorDeBonificacoes
 {
